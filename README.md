@@ -16,10 +16,6 @@ python -m http.server 8000
 
 The portrait is `assets/portrait.png`. Replace the file to change it.
 
-## Publications
-
-Publications live in `publications.js`. Each card shows a coloured venue tile by default. To use a real paper figure instead, put the image in `assets/pubs/` and add `image: "assets/pubs/name.png"` to that entry.
-
 ## Deploy
 
 Enable GitHub Pages (Settings → Pages → Deploy from branch → `main` / root).
