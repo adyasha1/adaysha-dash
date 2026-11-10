@@ -14,7 +14,7 @@ python -m http.server 8000
 
 ## Profile photo
 
-Add a square portrait as `assets/portrait.jpg`. Until then, initials are shown.
+The portrait is `assets/portrait.png`. Replace the file to change it.
 
 ## Deploy
 

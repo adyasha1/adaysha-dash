@@ -119,7 +119,7 @@ a:hover { text-decoration: none; }
   border-radius: 50%;
   border: 1px solid var(--line);
   background:
-    url("assets/portrait.jpg") center / cover no-repeat,
+    url("assets/portrait.png") center 25% / cover no-repeat,
     linear-gradient(135deg, #3b6aa8, #1f407a);
   display: flex;
   align-items: center;
@@ -342,6 +342,23 @@ a:hover { text-decoration: none; }
 }
 .list li:first-child { border-top: 0; }
 .date { color: var(--muted); font-weight: 600; }
+
+.stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.stats li {
+  background: var(--panel);
+  border-radius: 14px;
+  padding: 20px 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.stats strong { display: block; font-size: 2.4rem; font-weight: 500; color: var(--blue); }
 
 .button {
   display: inline-block;
